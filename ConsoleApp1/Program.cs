@@ -70,12 +70,12 @@
 
         public void NeglectConsequences()
         {
-            if (Hunger >= 8)
+            if (Hunger >= 9)
             {
                 Health = Math.Max(1, Health - 2);
                 Console.WriteLine($"Neglect Warning: {Name} is very hungry. Health decreased!!");
             }
-            if (Happiness <= 2)
+            if (Happiness <= 1)
             {
                 Health = Math.Max(1, Health - 1);
                 Console.WriteLine($"Neglect Warning: {Name} is very unhappy. Health decreased.");
