@@ -28,7 +28,7 @@
         public void DisplayStats()
         {
             Console.WriteLine($"\nPet Status:");
-            Console.WriteLine($"Hunger: {Hunger}/10 | Happiness: {Happiness}/10 | Health: {Health}/10");
+            Console.WriteLine($"Hunger: {Hunger} | Happiness: {Happiness}| Health: {Health}");
         }
 
         public void CheckStatus()
