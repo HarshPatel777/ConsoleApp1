@@ -139,8 +139,7 @@
                 pet.SpecialEvents();
 
                 System.Threading.Thread.Sleep(1000);  // Simulate 1 hour of time passing
-                Console.Clear();  // Clear console for better visibility
-
+                
             }
         }
     }
