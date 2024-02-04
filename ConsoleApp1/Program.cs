@@ -33,11 +33,11 @@
 
         public void CheckStatus()
         {
-            if (Hunger <= 2)
+            if (Hunger <= 1)
                 Console.WriteLine("Warning: Your pet is very hungry! Consider feeding.");
-            if (Happiness <= 2)
+            if (Happiness <= 1)
                 Console.WriteLine("Warning: Your pet is very unhappy! Consider playing.");
-            if (Health <= 2)
+            if (Health <= 1)
                 Console.WriteLine("Warning: Your pet's health is very low! Consider resting.");
         }
 
@@ -84,9 +84,9 @@
 
         public void SpecialEvents()
         {
-            if (Hunger >= 8)
+            if (Hunger >= 9)
                 Console.WriteLine($"{Name} has refused to play! It's too hungry.");
-            else if (Health <= 3)
+            else if (Health <= 2)
                 Console.WriteLine($"{Name} is feeling sick. Consider resting to improve health.");
         }
     }
