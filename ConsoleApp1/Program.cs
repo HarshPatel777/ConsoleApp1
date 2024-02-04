@@ -110,7 +110,7 @@
                 pet.CheckStatus();
 
                 Console.WriteLine("Actions:");
-                Console.WriteLine("1. Feed\n2. Play\n3. Rest\n4. Quit");
+                Console.WriteLine("1. Feeding the pets\n2. Playing with pets\n3. Resting the pet\n4. Quit");
 
                 Console.Write("Choose an action (1-4): ");
                 string action = Console.ReadLine();
