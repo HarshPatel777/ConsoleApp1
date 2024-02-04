@@ -73,7 +73,7 @@
             if (Hunger >= 8)
             {
                 Health = Math.Max(1, Health - 2);
-                Console.WriteLine($"Neglect Warning: {Name} is very hungry. Health decreased.");
+                Console.WriteLine($"Neglect Warning: {Name} is very hungry. Health decreased!!");
             }
             if (Happiness <= 2)
             {
