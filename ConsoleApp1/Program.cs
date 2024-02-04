@@ -85,9 +85,9 @@
         public void SpecialEvents()
         {
             if (Hunger >= 8)
-                Console.WriteLine($"{Name} refuses to play! It's too hungry.");
+                Console.WriteLine($"{Name} has refused to play! It's too hungry.");
             else if (Health <= 3)
-                Console.WriteLine($"{Name} is feeling unwell. Consider resting to improve health.");
+                Console.WriteLine($"{Name} is feeling sick. Consider resting to improve health.");
         }
     }
 
@@ -109,7 +109,7 @@
                 pet.DisplayStats();
                 pet.CheckStatus();
 
-                Console.WriteLine("\nActions:");
+                Console.WriteLine("Actions:");
                 Console.WriteLine("1. Feed\n2. Play\n3. Rest\n4. Quit");
 
                 Console.Write("Choose an action (1-4): ");
